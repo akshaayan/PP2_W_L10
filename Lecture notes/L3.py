@@ -24,8 +24,8 @@ def sort_list(list):
                 str_list[i], str_list[j] = str_list[j] , str_list [i]
     return num_list, str_list
 
-res, res1 = sort_list(test)
-print(res1)
+# res, res1 = sort_list(test)
+# print(res1)
 
 def computepay(h, r):
     n_h = 40
@@ -35,7 +35,7 @@ def computepay(h, r):
     else:
         return h*r
     
-print(computepay(35, 20000))
+# print(computepay(35, 20000))
 
 def new_func(*args, **kwargs):
     for i in args: 
@@ -44,7 +44,7 @@ def new_func(*args, **kwargs):
     print(args)
     print(kwargs)
     
-new_func(1, 2, 4, 6, 9, g=100, y = 1000)
+# new_func(1, 2, 4, 6, 9, g=100, y = 1000)
 
 class Student:
     def __init__(self, id, name, major, gpa):
@@ -92,9 +92,9 @@ class MasterStudent(Student, Human):
         
         
 ms = MasterStudent('25B000001', 'Daulet', 'CS', 3.0)
-ms.grow()
-print(ms.height)
-ms.study('PP2')
+# ms.grow()
+# print(ms.height)
+# ms.study('PP2')
 
         
     
